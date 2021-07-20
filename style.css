@@ -1,0 +1,126 @@
+body{
+    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage.shutterstock.com%2Fimage-illustration%2Fc-plus-abstract-concept-blue-260nw-528261487.jpg&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fc%2Bprogramming&tbnid=Cjt82AoCfaAAQM&vet=12ahUKEwie1s2CpO7xAhW1C7cAHW5oC3MQMygBegUIARC2AQ..i&docid=AsC17fXyWNsbBM&w=390&h=280&q=c%20programming%20background%20image&ved=2ahUKEwie1s2CpO7xAhW1C7cAHW5oC3MQMygBegUIARC2AQ");
+    background-repeat: no-repeat;
+}
+#container{
+    width: 1050px;
+    margin: 0 auto;
+
+}
+#header{
+    height: 100px;
+    background: linear-gradient(orange,blue);
+}
+a:hover{
+    color:black;
+}
+h1 a{
+    font-size: 50px;
+    font-family: fantasy;
+    font-weight: 200;
+    text-decoration: none;
+    color: black 
+}
+#brand{
+    float:left;
+}
+#searchbox{
+    float: right;
+    height: 10px;
+    padding: 45px;
+    background: linear-gradient(black,grey);
+}
+.text{
+    float:left;
+    padding: 2px;
+    width: 200px;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: blue;
+}
+#clear{
+    clear: both;
+}
+.submit{
+    float:right;
+    background: chocolate;
+}
+#menu{
+    height: 70px;
+    background:linear-gradient(orange,green);
+    padding: 7px 0;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+#menu ul li{
+    float: left;
+    padding: 0px 30px;
+    text-decoration: none;
+    height: 30px;
+    border-right: 2px solid;
+}
+#menu ul li a{
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 2px;
+    transition: font-size 0.4s linear;
+}
+#menu ul li :last-child{
+    border-right: none;
+}
+#menu ul li a:hover,#menu ul li a:active{
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
+#introduction{
+    background:linear-gradient(rgb(60, 179, 113),rgb(40,50,60));
+    background:-webkit-linear-gradient(rgb(60, 179, 113),rgb(40,50,60));
+    padding: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#introduction h2{
+    color: yellow ;
+    font-size: 30px;
+}
+#introduction p{
+    color: burlywood;
+    font-size: 20px;
+    text-align: justify;
+}
+.side{
+    height: 300px;
+    width: 400px;
+    border: 1px solid green;
+    border-radius: 20px;
+}
+#leftside{
+    float:left;
+}
+#rightside{
+    float: right;
+}
+#leftside h2{
+    padding: 10px;
+    padding-left: 30px;
+}
+#leftside ul li a{
+    font-size: 20px;
+    color:indigo;
+    text-decoration: none;
+}
+#leftside ul li a:hover{
+    font-size: 30px;
+    color: black;
+}
+#rightside h2{
+    padding: 10px;
+    padding-left: 30px;
+}
+#rightside ul li{
+    font-size: 20px;
+    color:indigo;
+}
